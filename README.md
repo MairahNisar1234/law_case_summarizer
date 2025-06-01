@@ -1,21 +1,22 @@
 # ⚖️ Law Summarizer App
 
-The **Law Summarizer App** is a lightweight Streamlit-based web application that helps users quickly extract key points from lengthy legal case files. Built for law students, legal professionals, and researchers, this tool uses NLP to generate concise summaries of complex legal texts.
+The **Law Summarizer App** is a simple and powerful legal text summarization tool built using **Streamlit** and **LLaMA-based language models**. This app is designed to help legal professionals, students, and researchers quickly summarize lengthy case files, particularly those from the Pakistani legal system (e.g., SCMR judgments).
 
 ## 🌟 Features
 
-- 📄 Upload long legal case files
-- 🤖 Get a summarized version instantly using AI
-- ⚡ Simple, clean Streamlit interface
-- 🇵🇰 Optimized for Pakistani case law (e.g., SCMR judgments)
+- 📄 Paste or upload long legal texts
+- 🧠 Summarizes using LLaMA-based local models
+- 🎯 Focuses on South Asian legal formats and references
+- 🖥️ Easy-to-use interface with Streamlit
 
 ## 🛠️ Tech Stack
 
 - Python 3.x
-- [Streamlit](https://streamlit.io/) – interactive frontend
-- Natural Language Processing (using GPT or similar)
+- Streamlit
+- Meta’s LLaMA (via Transformers)
 
-## 🚀 How to Run
+
+## 🚀 How to Run Locally
 
 1. **Clone the repo**
    ```bash
